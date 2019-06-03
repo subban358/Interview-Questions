@@ -1,3 +1,9 @@
+/*
+Here we have to find the max occurrence of an element in an array 
+like if the given array is {2,3,3,2,9,83,9,9,8,8,8}
+
+the answer should be 8
+*/
 import java.util.Arrays;
 public class Max_Occur
 {
