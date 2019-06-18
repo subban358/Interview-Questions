@@ -18,11 +18,15 @@ class Daily4
 		
 		for (int j=1; j<l-1; j++) 
 		{       
-	      	if (a[j+1] != a[j]+1) 
+	      	if (a[j+1] > a[j]+1) 
 	      	{
 	       		 s=a[j]+1; 
 	       		 break;
 	      	}
+		else if(a[i]>1)
+		{
+			s=a[i]-1;
+		}
 	    	else 
 	    		s=a[l-1]+1;
         }
